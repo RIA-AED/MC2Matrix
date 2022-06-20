@@ -1,4 +1,5 @@
 name: MC2QQ
 version: '${version}'
+author: Longtianmu
 main: net.ltm.mc2qq.MC2QQ
 description: 用于HydragonBot与MC互联
