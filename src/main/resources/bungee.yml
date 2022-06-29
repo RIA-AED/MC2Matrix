@@ -1,5 +1,5 @@
-name: MC2QQ
+name: MC2QQMatrix
 version: '${version}'
 author: Longtianmu
-main: net.ltm.mc2qq.MC2QQ
-description: 用于HydragonBot与MC互联
+main: net.ltm.mc2qq.MC2QQMatrix
+description: 用于Matrix与MC互联
