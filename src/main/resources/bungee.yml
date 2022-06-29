@@ -1,5 +1,5 @@
-name: MC2QQMatrix
+name: MC2Matrix
 version: '${version}'
 author: Longtianmu
-main: net.ltm.mc2qq.MC2QQMatrix
+main: net.ltm.mc2qq.MC2Matrix
 description: 用于Matrix与MC互联

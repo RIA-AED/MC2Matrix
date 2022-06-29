@@ -6,9 +6,9 @@ import java.util.concurrent.TimeUnit
 val matrix = Matrix()
 val threadManager = MessageSendManager()
 
-class MC2QQMatrix : Plugin() {
+class MC2Matrix : Plugin() {
     override fun onEnable() {
-        logger.info("MC2QQMatrix Now Loading")
+        logger.info("MC2Matrix Now Loading")
         proxy.pluginManager.registerListener(this, MessagesFromMinecraft())
         proxy.pluginManager.registerListener(this, MessagesFromMatrix())
         proxy.pluginManager.registerListener(this, MessageToMatrix())
@@ -28,6 +28,6 @@ class MC2QQMatrix : Plugin() {
     override fun onDisable() {
         threadManager.threads?.interrupt()
         proxy.pluginManager.unregisterListeners(this)
-        logger.info("MC2QQMatrix Now Unloading")
+        logger.info("MC2Matrix Now Unloading")
     }
 }
